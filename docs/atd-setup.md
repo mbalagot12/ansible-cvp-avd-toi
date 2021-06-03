@@ -17,7 +17,7 @@ $ cd ansible-cvp-avd-toi
 Run TOI in a python's virtual environment:
 
 ```shell
-# Upgrade pip if needed
+# Upgrade pip if needed. This 
 $ /usr/local/bin/python -m pip install --upgrade pip
 
 # Install virtualenv if not part of your system
@@ -44,7 +44,9 @@ $ pip install --requirement requirements.txt
 # Check what has been installed
 $ pip list
 
-# Install sshpass
+# Install sshpass. This is problematic on MACs. Need to download Xcode. Run it. Go to Preferences>Downloads>Command Line tools 
+# on the Install button. Follow the sshpass installation here 
+# https://www.hashbangcode.com/article/installing-sshpass-osx-mavericks#:~:text=You%20can%20do%20this%20by,project%2C%20currently%20available%20on%20sourceforge.
 $ sudo apt-get install -y sshpass
 ```
 
